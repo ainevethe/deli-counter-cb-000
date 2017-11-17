@@ -8,9 +8,9 @@ def line(katz_deli)
 
 
 
-  if katz_deli.size == 0
+  if katz_deli.length == 0
     puts "The line is currently empty."
-  else katz_deli.size > 0
+  else katz_deli.length > 0
     puts "Welcome #{katz_deli[index]}.  You are number #{katz_deli[index.with_index]} in line."
   end
 end
