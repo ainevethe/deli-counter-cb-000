@@ -3,7 +3,7 @@
 katz_deli = []
 
 
-def line()
+def line(name)
 
   currentline = katz_deli.size
 
