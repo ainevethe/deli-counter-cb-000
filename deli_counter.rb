@@ -3,12 +3,14 @@
 katz_deli = []
 
 def line(array)
-  deliline = []
-
-  if (line.length == 0)
+  x = 0
+  message = "The line is currently: "
+  
+  if line.length == 0
     puts "The line is currently empty."
-  else katz_deli.length > 0
-    puts "Welcome #{katz_deli[index]}.  You are number #{katz_deli[index.with_index]} in line."
+  elsif katz_deli.length >= 1
+    array.each_with_index |name, index|
+    message += "#{index + 1}. #{name} "
   end
 end
 
