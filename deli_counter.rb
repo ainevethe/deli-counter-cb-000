@@ -30,5 +30,5 @@ if array.length == 0
     puts "Currently serving #{name}."
     end
   end
-  katz_deli.shift
+  array.shift
 end
