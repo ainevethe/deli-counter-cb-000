@@ -11,8 +11,7 @@ def line(katz_deli)
   if currentLine == 0
     puts "The line is currently empty."
   else currentLine > 0
-    puts "The line is currently #{katz_deli[index +1]}. #{name}."
-
+    puts "Welcome #{katz_deli[index]}"
   end
 end
 
