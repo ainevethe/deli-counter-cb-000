@@ -6,7 +6,7 @@ katz_deli = []
 def line(katz_deli)
   katz_deli = []
 
-  currentline = katz_deli.size
+  currentLine = katz_deli.size
 
   if currentLine == 0
     puts "The line is currently empty."
