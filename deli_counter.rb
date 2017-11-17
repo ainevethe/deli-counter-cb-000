@@ -16,16 +16,16 @@ def line(lineup)
 end
 end
 
-def take_a_number(array, name)
-  array << name
-  number = array.size
+def take_a_number(line, name)
+  line << name
+  number = line.size
   puts "Welcome, #{name}. You are number #{number} in line."
 end
 
-def now_serving(array)
+def now_serving(line)
 
-if array.length == 0
-  puts "There is nobody waiting to be served!"
+  if line.length == 0
+    puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{array.shift}."
   end
