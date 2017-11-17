@@ -29,6 +29,6 @@ if array.length == 0
   else array.each do |name|
     puts "Currently serving #{name}."
     end
-    array.shift
   end
+  katz_deli.shift
 end
