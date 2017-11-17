@@ -14,7 +14,7 @@ def line(lineup)
   end
   puts message
 end
-end
+
 
 def take_a_number(array, name)
 
