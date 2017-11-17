@@ -5,12 +5,12 @@ katz_deli = []
 
 def line()
 
-  line = katz_deli.size
+  currentline = katz_deli.size
 
-  if line == 0
+  if currentLine == 0
     puts "The line is currently empty."
-  else line > 0
-    puts "The line is currently #{katz_deli[index + 1]}. #{name}."
+  else currentLine > 0
+    puts "The line is currently #{katz_deli.with_index + 1}. #{name}."
 
   end
 end
