@@ -4,6 +4,7 @@ katz_deli = []
 
 
 def line(name)
+  katz_deli = []
 
   currentline = katz_deli.size
 
