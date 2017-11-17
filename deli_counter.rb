@@ -14,9 +14,7 @@ end
 
 
 def currentLine(line)
-  katz_deli = []
-
-
+  var deliline = []
 
   if line.length == 0
     puts "The line is currently empty."
