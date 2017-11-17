@@ -28,7 +28,7 @@ if array.length == 0
   puts "There is nobody waiting to be served!"
   else array.each do |name|
     puts "Currently serving #{name}."
-    array.shift
     end
+    array.shift
   end
 end
